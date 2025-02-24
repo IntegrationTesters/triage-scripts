@@ -11,3 +11,5 @@ gh = github.Github(auth=auth)
 ISSUE = int(os.getenv('ISSUE'))
 REPO = os.getenv('GH_REPO')
 print(REPO)
+
+issue.create_comment("IntegrationTester presents: Test")
